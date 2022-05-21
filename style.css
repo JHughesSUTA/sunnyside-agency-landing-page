@@ -7,3 +7,66 @@
 .desktop-image {
   display: none;
 }
+
+:root {
+  --red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --graphic-design-green: hsl(167, 40%, 24%);
+  --photography-blue: hsl(198, 62%, 26%);
+  --footer-cyan: hsl(168, 34%, 41%);
+  --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+img {
+  display: block;
+  /* width: 100%; */
+}
+
+h1, h2, h3 {
+  font-family: 'Fraunces', serif;
+  text-align: center;
+  font-weight: 700;
+  color: var(--very-dark-desaturated-blue);
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 6.25px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 32px;
+  letter-spacing: -.23px;
+}
+
+#offers h2 {
+  font-size: 28px;
+}
+
+p {
+  color: var(--dark-grayish-blue);
+  line-height: 30px;
+  letter-spacing: -.13px;
+  text-align: center;
+}
+
+#testimonials__header {
+  font-size: 28px;
+  color: var(--grayish-blue);
+  text-transform: uppercase;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
