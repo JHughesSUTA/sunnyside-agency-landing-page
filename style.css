@@ -27,14 +27,14 @@ body {
 
 img {
   display: block;
-  /* width: 100%; */
+  width: 100%;
 }
 
 h1, h2, h3 {
   font-family: 'Fraunces', serif;
   text-align: center;
   font-weight: 700;
-  color: var(--very-dark-desaturated-blue);
+  /* color: var(--very-dark-desaturated-blue); */
 }
 
 h1 {
@@ -48,12 +48,8 @@ h2 {
   letter-spacing: -.23px;
 }
 
-#offers h2 {
-  font-size: 28px;
-}
-
 p {
-  color: var(--dark-grayish-blue);
+  /* color: var(--dark-grayish-blue); */
   line-height: 30px;
   letter-spacing: -.13px;
   text-align: center;
@@ -68,5 +64,31 @@ p {
 a {
   display: block;
   text-decoration: none;
-  text-align: center;
+  /* text-align: center; */
+}
+
+.offers__image-container {
+  position: relative;
+  /* text-align: center; */
+}
+
+.offers__image-text {
+  position: absolute;
+  width: 90%;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#offers__image-text--graphic-design {
+  color: var(--graphic-design-green);
+}
+
+#offers__image-text--photography {
+  color: var(--photography-blue);
+}
+
+.offers__image-text__heading {
+  margin-bottom: 20px;
+  font-size: 28px;
 }
