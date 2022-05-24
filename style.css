@@ -62,9 +62,49 @@ a {
   /* text-align: center; */
 }
 
+
+/* HEADER / NAV */
+.nav {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  padding: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu-icon {
+  color: var(--white);
+}
+
+#header__logo {
+  width: 124px;
+}
+
+#header__arrow-icon {
+  position: absolute;
+  width: 30px;
+  left: 50%;
+  top: 294px;
+  transform: translate(-50%, 0);
+}
+
+.header__content__image {
+  position: relative;
+  z-index: -1;
+}
+
+.header-text {
+  position: absolute;
+  color: white;
+  top: 144px;
+}
+
+
+/* OFFERS SECTION */
 .offers__image-container {
   position: relative;
-  /* text-align: center; */
 }
 
 .offers__image-text {
