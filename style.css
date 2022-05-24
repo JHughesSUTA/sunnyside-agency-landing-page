@@ -14,6 +14,7 @@
   --graphic-design-green: hsl(167, 40%, 24%);
   --photography-blue: hsl(198, 62%, 26%);
   --footer-cyan: hsl(168, 34%, 41%);
+  --footer-light-green: #90D4C6;
   --very-dark-desaturated-blue: hsl(212, 27%, 19%);
   --very-dark-grayish-blue: hsl(213, 9%, 39%);
   --dark-grayish-blue: hsl(232, 10%, 55%);
@@ -106,8 +107,8 @@ a {
     z-index: 1;
 }
 
-/* TESTIMONIALS */
 
+/* TESTIMONIALS */
 .testimonials {
   width: 87.25%;
   margin: 60px auto;
@@ -145,4 +146,44 @@ a {
 
 .testimonial__client-name {
   font-size: 18px;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+/* footer styles */
+.footer {
+  background-color: var(--footer-light-green);
+  padding: 50px 0;
+}
+
+.footer__list {
+  display: flex;
+  margin: 0 auto;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.footer__links {
+  width: 297px;
+  padding: 20px 0;
+}
+
+.footer__social-links {
+  width: 164px;
+  padding: 20px 0;
+  margin-top: 70px;
+}
+
+.footer__links__link {
+  color: var(--footer-cyan);
+}
+
+#footer__logo {
+  width: 170px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
