@@ -189,6 +189,26 @@ ul {
   color: var(--very-dark-desaturated-blue);
   text-transform: uppercase;
   z-index: 1;
+  position: relative;
+}
+
+.section__text__link::after {
+  content: '';
+    display: block;
+    position: absolute;
+    background-color: #FAD400;
+    opacity: 0.25;
+    border-radius: 28px;
+    height: 10px;
+    width: 137px;
+    bottom: -2px;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section__text__link.section__text__link--alt::after {
+    background-color: #FE7766;
 }
 
 /* TESTIMONIALS */
