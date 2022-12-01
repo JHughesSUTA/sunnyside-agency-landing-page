@@ -14,7 +14,7 @@
   --graphic-design-green: hsl(167, 40%, 24%);
   --photography-blue: hsl(198, 62%, 26%);
   --footer-cyan: hsl(168, 34%, 41%);
-  --footer-light-green: #90D4C6;
+  --footer-light-green: #90d4c6;
   --very-dark-desaturated-blue: hsl(212, 27%, 19%);
   --very-dark-grayish-blue: hsl(213, 9%, 39%);
   --dark-grayish-blue: hsl(232, 10%, 55%);
@@ -23,7 +23,7 @@
 }
 
 body {
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 img {
@@ -31,8 +31,10 @@ img {
   width: 100%;
 }
 
-h1, h2, h3 {
-  font-family: 'Fraunces', serif;
+h1,
+h2,
+h3 {
+  font-family: "Fraunces", serif;
   text-align: center;
   font-weight: 700;
   /* color: var(--very-dark-desaturated-blue); */
@@ -46,13 +48,13 @@ h1 {
 
 h2 {
   font-size: 32px;
-  letter-spacing: -.23px;
+  letter-spacing: -0.23px;
 }
 
 p {
   /* color: var(--dark-grayish-blue); */
   line-height: 30px;
-  letter-spacing: -.13px;
+  letter-spacing: -0.13px;
   text-align: center;
 }
 
@@ -65,7 +67,6 @@ a {
 ul {
   list-style: none;
 }
-
 
 /* HEADER / NAV */
 .nav {
@@ -117,6 +118,18 @@ ul {
   padding: 14px 0 40px 0;
 }
 
+.nav-menu__triangle {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid var(--white);
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid var(--white);
+  position: absolute;
+  top: -24px;
+  right: 0;
+}
+
 .nav-menu__link {
   color: var(--dark-grayish-blue);
   font-size: 20px;
@@ -124,7 +137,7 @@ ul {
 }
 
 .nav-menu__link--contact {
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   padding: 16px 30px;
   background-color: var(--yellow);
   display: inline-block;
@@ -132,7 +145,6 @@ ul {
   color: var(--very-dark-desaturated-blue);
   margin-top: 16px;
 }
-
 
 /* OFFERS SECTION */
 .offers__image-container {
@@ -173,12 +185,11 @@ ul {
 }
 
 .section__text__link {
-    font-family: 'Fraunces', serif;
-    color: var(--very-dark-desaturated-blue);
-    text-transform: uppercase;
-    z-index: 1;
+  font-family: "Fraunces", serif;
+  color: var(--very-dark-desaturated-blue);
+  text-transform: uppercase;
+  z-index: 1;
 }
-
 
 /* TESTIMONIALS */
 .testimonials {
@@ -225,7 +236,6 @@ ul {
   grid-template-columns: 1fr 1fr;
 }
 
-
 /* footer styles */
 .footer {
   background-color: var(--footer-light-green);
@@ -258,6 +268,3 @@ ul {
   margin: 0 auto;
   padding: 20px 0;
 }
-
-
-
