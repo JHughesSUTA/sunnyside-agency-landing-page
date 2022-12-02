@@ -27,12 +27,20 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
   </head>
   <body>
     <header class="header image-container">
       <nav class="nav">
         <img id="header__logo" src="/images/logo.svg" alt="sunnyside logo" />
-        <i class="fas fa-bars fa-xl" id="menu-icon"></i>
+        <div id="header__menu-toggle">
+          <i class="fas fa-bars fa-xl" id="menu-icon"></i>
+        </div>
 
         <div class="nav-menu">
           <div class="nav-menu__triangle"></div>
@@ -106,7 +114,9 @@
           photographers, videographers, and copywriters, we'll build and extend
           your brand in digital places.
         </p>
-        <a class="section__text__link section__text__link--alt" href="">Learn more</a>
+        <a class="section__text__link section__text__link--alt" href=""
+          >Learn more</a
+        >
       </div>
     </section>
 
@@ -260,7 +270,11 @@
 
     <footer class="footer">
       <h2 id="footer__header"></h2>
-      <img id="footer__logo" src="/images/logo-green.svg" alt="sunnyside logo" />
+      <img
+        id="footer__logo"
+        src="/images/logo-green.svg"
+        alt="sunnyside logo"
+      />
       <ul class="footer__list footer__links">
         <li><a href="#" class="footer__links__link">About</a></li>
         <li><a href="#" class="footer__links__link">Services</a></li>
