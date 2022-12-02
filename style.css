@@ -212,6 +212,10 @@ ul {
   transform: translateX(-50%);
 }
 
+.section__text__link:hover::after {
+  opacity: 1;
+}
+
 .section__text__link.section__text__link--alt::after {
   background-color: #fe7766;
 }
