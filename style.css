@@ -330,8 +330,22 @@ ul {
     max-width: 50%;
   }
 
-  section#section-2 .desktop-image {
+  section#section-1 .desktop-image {
     order: 2;
+  }
+
+  .section__text#section-1__text {
+    padding-left: 165px;
+  }
+
+  .section__text#section-2__text {
+    padding-left: 110px;
+  }
+
+  .section__text h2,
+  .section__text p,
+  .section__text a {
+    text-align: left;
   }
 
   .image-gallery {
