@@ -305,3 +305,38 @@ ul {
   margin: 0 auto;
   padding: 20px 0;
 }
+
+@media (min-width: 767px) {
+  h1 {
+    width: 100%;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  img.mobile-image {
+    display: none;
+  }
+
+  img.desktop-image {
+    display: block;
+  }
+
+  section.section {
+    align-items: center;
+  }
+  section.section .desktop-image {
+    max-width: 50%;
+  }
+
+  section#section-2 .desktop-image {
+    order: 2;
+  }
+
+  .image-gallery {
+    display: flex;
+    grid-template-columns: none;
+    max-width: 25%;
+  }
+}
