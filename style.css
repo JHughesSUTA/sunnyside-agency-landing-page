@@ -188,6 +188,10 @@ br.desktop-break {
   font-size: 28px;
 }
 
+.offers__image-text__paragraph {
+  line-height: 27px;
+}
+
 .section__text {
   width: 87.25%;
   margin: 50px auto;
@@ -238,6 +242,10 @@ br.desktop-break {
   margin: 60px auto;
 }
 
+/* .testimonials-container {
+  gap: 30px;
+} */
+
 .testimonial__image {
   border-radius: 50%;
   width: 72px;
@@ -265,7 +273,7 @@ br.desktop-break {
 
 .testimonial__client-title {
   color: var(--grayish-blue);
-  margin-top: 14px;
+  margin-top: 9px;
 }
 
 .testimonial__client-name {
@@ -280,7 +288,7 @@ br.desktop-break {
 /* footer styles */
 .footer {
   background-color: var(--footer-light-green);
-  padding: 50px 0;
+  padding: 64px 0 80px;
 }
 
 .footer__list {
@@ -291,7 +299,6 @@ br.desktop-break {
 
 .footer__links {
   width: 297px;
-  padding: 20px 0;
 }
 
 .footer__links__link {
@@ -304,8 +311,7 @@ br.desktop-break {
 
 .footer__social-links {
   width: 164px;
-  padding: 20px 0;
-  margin-top: 70px;
+  margin-top: 88px;
 }
 
 .footer__social-links__link:hover svg path {
@@ -314,8 +320,7 @@ br.desktop-break {
 
 #footer__logo {
   width: 170px;
-  margin: 0 auto;
-  padding: 20px 0;
+  margin: 0 auto 40px;
 }
 
 @media (min-width: 767px) {
@@ -387,6 +392,8 @@ br.desktop-break {
 
   .section__text {
     max-width: 445px;
+    margin: auto;
+    padding: 0 15px;
   }
 
   /* .section__text#section-1__text {
@@ -404,6 +411,15 @@ br.desktop-break {
     text-align: left;
   }
 
+  h2 {
+    font-size: 30px;
+  }
+
+  .section__text__paragraph {
+    font-size: 15px;
+    padding: 20px 0;
+  }
+
   .image-gallery {
     display: flex;
     grid-template-columns: none;
@@ -412,5 +428,65 @@ br.desktop-break {
 
   .offers__image-container {
     width: 50%;
+  }
+
+  .offers__image-text {
+    top: 76%;
+  }
+
+  .offers__image-text__heading {
+    margin-bottom: 16px;
+  }
+
+  .footer {
+    padding: 72px 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section__text {
+    padding: 0;
+  }
+
+  .section__text__paragraph {
+    font-size: 18px;
+    padding: 30px 0;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  /* .offers__image-text__paragraph {
+    line-height: 30px;
+  } */
+
+  .offers__image-text__heading {
+    margin-bottom: 20px;
+  }
+
+  .testimonials {
+    margin: 160px auto;
+  }
+
+  .testimonials-container {
+    max-width: 1110px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  #testimonials__heading {
+    padding-top: 0;
+  }
+
+  .testimonials__testimonial {
+    max-width: 346px;
+    padding-top: 56px;
+    padding-bottom: 0;
+  }
+
+  .testimonial__content {
+    padding-top: 58px;
+    padding-bottom: 69px;
   }
 }
