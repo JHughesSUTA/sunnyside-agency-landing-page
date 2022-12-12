@@ -103,6 +103,11 @@ br.desktop-break {
   transform: translate(-50%, 0);
 }
 
+.hover-transition {
+  transition-property: background-color, color, fill;
+  transition-duration: 250ms;
+}
+
 .header__content__image {
   position: relative;
   z-index: -1;
@@ -226,6 +231,7 @@ br.desktop-break {
   z-index: -1;
   left: 50%;
   transform: translateX(-50%);
+  transition: background-color, 250ms;
 }
 
 .section__text__link:hover::after {
@@ -354,6 +360,10 @@ br.desktop-break {
     padding-left: 23.5px;
     padding-right: 23.5px;
     font-size: 18px;
+  }
+
+  .nav-menu__link:hover {
+    opacity: 0.6;
   }
 
   .nav-menu__link--contact {
