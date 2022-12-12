@@ -85,14 +85,16 @@ br.desktop-break {
 
 #menu-icon {
   color: var(--white);
+  transition: opacity 250ms;
 }
 
 #menu-icon:hover {
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
 #header__logo {
   width: 124px;
+  cursor: pointer;
 }
 
 #header__arrow-icon {
@@ -104,7 +106,7 @@ br.desktop-break {
 }
 
 .hover-transition {
-  transition-property: background-color, color, fill;
+  transition-property: background-color, color, fill, opacity;
   transition-duration: 250ms;
 }
 
@@ -119,6 +121,10 @@ br.desktop-break {
   top: 144px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+#header__menu-toggle {
+  cursor: pointer;
 }
 
 .header__desktop-menu {

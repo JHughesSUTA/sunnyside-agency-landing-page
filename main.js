@@ -1,5 +1,5 @@
 $(document).ready(function () {
   $("#header__menu-toggle").click(function () {
-    $(".nav-menu").toggle();
+    $(".nav-menu").fadeToggle("fast");
   });
 });
