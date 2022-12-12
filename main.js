@@ -6,4 +6,6 @@ $(document).ready(function () {
   $("#header__logo").click(function() {
     $("#header__logo").effect("shake");
   });
+
+    
 });

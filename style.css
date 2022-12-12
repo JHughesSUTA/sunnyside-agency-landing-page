@@ -163,6 +163,10 @@ br.desktop-break {
   padding: 16px;
 }
 
+.nav-menu__link:hover {
+  color: var(--very-dark-desaturated-blue);
+}
+
 .nav-menu__link--contact {
   font-family: "Fraunces", serif;
   padding: 16px 30px;
@@ -171,6 +175,10 @@ br.desktop-break {
   border-radius: 50px;
   color: var(--very-dark-desaturated-blue);
   margin-top: 16px;
+}
+
+.nav-menu__link--contact:hover {
+  color: var(--white);
 }
 
 /* OFFERS SECTION */
@@ -392,6 +400,7 @@ br.desktop-break {
   }
 
   .nav-menu__link:hover {
+    color: var(--white);
     opacity: 0.6;
   }
 
