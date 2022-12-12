@@ -335,6 +335,29 @@ br.desktop-break {
   margin: 0 auto 40px;
 }
 
+
+
+/* 
+#header__logo {
+  animation: click 0.3s ease-in;
+}
+
+@keyframes click {
+  25% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+} */
+
+
 @media (min-width: 767px) {
   .flex {
     display: flex;
