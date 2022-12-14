@@ -344,8 +344,6 @@ br.desktop-break {
   margin: 0 auto 40px;
 }
 
-
-
 /* 
 #header__logo {
   animation: click 0.3s ease-in;
@@ -365,7 +363,6 @@ br.desktop-break {
     transform: rotate(10deg);
   }
 } */
-
 
 @media (min-width: 767px) {
   .flex {
@@ -445,14 +442,6 @@ br.desktop-break {
     padding: 0 15px;
   }
 
-  /* .section__text#section-1__text {
-    padding-left: 165px;
-  }
-
-  .section__text#section-2__text {
-    padding-left: 110px;
-  } */
-
   .section__text,
   .section__text h2,
   .section__text p,
@@ -467,6 +456,10 @@ br.desktop-break {
   .section__text__paragraph {
     font-size: 15px;
     padding: 20px 0;
+  }
+
+  .section__text__link {
+    margin-left: 12px;
   }
 
   .image-gallery {
