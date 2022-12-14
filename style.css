@@ -230,6 +230,7 @@ br.desktop-break {
   z-index: 1;
   position: relative;
   display: inline-block;
+  white-space: nowrap;
 }
 
 .section__text__link::after {
