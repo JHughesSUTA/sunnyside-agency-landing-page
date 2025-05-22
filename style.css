@@ -30,7 +30,8 @@ body {
   font-family: "Barlow", sans-serif;
 }
 
-img {
+img,
+picture {
   display: block;
   width: 100%;
 }
@@ -74,6 +75,23 @@ ul {
 
 br.desktop-break {
   display: none;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 1000;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+  top: 10px; /* bring it into view */
 }
 
 /* HEADER / NAV */
@@ -448,11 +466,11 @@ br.desktop-break {
   section.section {
     align-items: center;
   }
-  section.section .desktop-image {
+  section.section picture {
     max-width: 50%;
   }
 
-  section#section-1 .desktop-image {
+  section#section-1 picture {
     order: 2;
   }
 
