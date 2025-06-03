@@ -34,7 +34,8 @@
     ></script> -->
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
+    <script defer src="animation.js"></script>
   </head>
   <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -113,7 +114,11 @@
           </ul>
         </div>
       </nav>
-      <h1 class="header-text">We are creatives</h1>
+      <h1 class="header-text">
+        <span class="header-text__segment slide">We</span>
+        <span class="header-text__segment slide">are</span>
+        <span class="header-text__segment slide">creatives</span>
+      </h1>
       <img
         id="header__arrow-icon"
         src="./images/icon-arrow-down.svg"
@@ -164,15 +169,17 @@
           />
         </picture>
         <div class="section__text" id="section-1__text">
-          <h2>Transform your <br class="desktop-break" />brand</h2>
-          <p class="section__text__paragraph">
+          <h2 class="slide slide-right">
+            Transform your <br class="desktop-break" />brand
+          </h2>
+          <p class="section__text__paragraph slide slide-right">
             We are a full-service creative agency specializing in
             <br class="desktop-break" />helping brands grow fast. Engage your
             clients through compelling visuals that do most of the marketing for
             you.
           </p>
           <a
-            class="section__text__link hover-transition link-placeholder"
+            class="section__text__link hover-transition link-placeholder fade"
             href="#"
             onclick="return false"
             >Learn More</a
@@ -196,14 +203,14 @@
         </picture>
 
         <div class="section__text" id="section-2__text">
-          <h2>Stand out to the right audience</h2>
-          <p class="section__text__paragraph">
+          <h2 class="slide slide-left">Stand out to the right audience</h2>
+          <p class="section__text__paragraph slide slide-left">
             Using a collaborative formula of designers, researchers,
             photographers, videographers, and copywriters, we'll build and
             extend your brand in digital places.
           </p>
           <a
-            class="section__text__link section__text__link--alt link-placeholder"
+            class="section__text__link section__text__link--alt link-placeholder fade"
             href="#"
             onclick="return false"
             >Learn more</a
@@ -265,10 +272,13 @@
       </section>
 
       <section class="testimonials">
-        <h2 id="testimonials__heading">Client Testimonials</h2>
+        <h2 id="testimonials__heading" class="fade">Client Testimonials</h2>
 
         <div class="testimonials-container flex">
-          <div class="testimonials__testimonial" id="testimonial--emily">
+          <div
+            class="testimonials__testimonial slide slide-up"
+            id="testimonial--emily"
+          >
             <img
               src="images/image-emily.jpg"
               alt="Portrait of Emily, Marketing Director"
@@ -282,7 +292,10 @@
             <p class="testimonial__client-title">Marketing Director</p>
           </div>
 
-          <div class="testimonials__testimonial" id="testimonial--thomas">
+          <div
+            class="testimonials__testimonial slide slide-up"
+            id="testimonial--thomas"
+          >
             <img
               src="images/image-thomas.jpg"
               alt="Portrait of Thomas, Chief Operating Officer"
@@ -296,7 +309,10 @@
             <p class="testimonial__client-title">Chief Operating Officer</p>
           </div>
 
-          <div class="testimonials__testimonial" id="testimonial--jennie">
+          <div
+            class="testimonials__testimonial slide slide-up"
+            id="testimonial--jennie"
+          >
             <img
               src="images/image-jennie.jpg"
               alt="Portrait of Jennie, Business Owner"
