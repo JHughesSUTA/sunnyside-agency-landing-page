@@ -1,16 +1,7 @@
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-
-    // only animate once
-    // if (entry.isIntersecting) {
-    //   entry.target.classList.add("show");
-    // }
-
-    // this will make it re-animate when leaving the screen
     if (entry.isIntersecting) {
       entry.target.classList.add("animate");
-    } else {
-      entry.target.classList.remove("animate");
     }
   });
 });
