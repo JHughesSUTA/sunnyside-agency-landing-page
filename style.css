@@ -618,11 +618,11 @@ br.desktop-break {
   }
 
   .header-text__segment:nth-child(2) {
-    transition-delay: 200ms;
+    transition-delay: 500ms;
   }
 
   .header-text__segment:nth-child(3) {
-    transition-delay: 400ms;
+    transition-delay: 1000ms;
   }
 
   .section__text__link.fade {
@@ -631,14 +631,7 @@ br.desktop-break {
 
   @media (max-width: 767px) {
     .testimonials__testimonial {
-      transition-delay: 0ms;
-    }
-    .slide.slide-up {
-      transform: translateX(-100%);
-    }
-
-    .testimonials__testimonial.slide.slide:nth-child(2) {
-      transform: translateX(100%);
+      transition-delay: 0ms !important;
     }
   }
 }
